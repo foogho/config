@@ -1,0 +1,62 @@
+{
+  // vscode
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "editor.fontSize": 16,
+  "html.autoClosingTags": false,
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontFamily": "'MesloLGS NF','Droid Sans Mono', 'monospace', monospace",
+  // vscode vim
+  "vim.leader": " ",
+  "vim.easymotion": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.duration": 500,
+  "vim.foldfix": true,
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-p>": false,
+    "<C-k>": false,
+    "<C-b>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["k", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  // cSpell
+  "cSpell.language": "en,fa",
+  // angular-schematics
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-*": {
+      "style": "scss",
+      "externalTemplate": true
+    },
+    "angular-component": {
+      "skipChangeDetectionOnPush": true,
+      "skipPathSubfolder": true
+    },
+    "angular-page": {
+      "skipChangeDetectionOnPush": true
+    }
+  }
+}
