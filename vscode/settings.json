@@ -11,6 +11,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.fontFamily": "'MesloLGS NF','Droid Sans Mono', 'monospace', monospace",
+  "editor.lineNumbers": "relative",
   // vscode vim
   "vim.leader": " ",
   "vim.easymotion": true,
