@@ -12,6 +12,7 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.fontFamily": "'MesloLGS NF','Droid Sans Mono', 'monospace', monospace",
   "editor.lineNumbers": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   // vscode vim
   "vim.leader": " ",
   "vim.easymotion": true,
@@ -34,6 +35,18 @@
     {
       "before": ["k", "k"],
       "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.nextInFiles"],
+      "silent": true
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prevInFiles"],
+      "silent": true
     }
   ],
   // cSpell
